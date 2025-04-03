@@ -1,20 +1,11 @@
-const customerId = 1244  // const can not be updated and redeclared in this const 
-let userEmail = "mdatushifraja084@gamil.com"
-var userPassword = "hello@123"
+const customerId = 12435  // const can not be re-declared and updates
+let userEmail = " dtaushifraja084@gmail.com"
+var userPassword = "helo@123"
 userCity = "jaipur"
 
-
-//customerId = 4655 can not be used
-userEmail = "taushifraja933@gmail.com"
+customerId = 5868  // const is not update in store memoery
+/*userEmail = "taushifraja933@gmail.com"
 userPassword = "taushif@123"
-userCity = "Goa"
+userCity = "Goa"*/
 
-console.log("customerId");
-/*
-Prefer not to use var
-because if issue in block scope functoinal scope
-
-*/
-
-console.table([customerId,userEmail,userPassword,userCity])
-console.log("hello")
+console.log(customerId);
