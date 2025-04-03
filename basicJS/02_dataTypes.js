@@ -27,3 +27,4 @@ console.log(3
     console.log(typeof "hitesh");
     console.log(typeof null); //object
     
+    
