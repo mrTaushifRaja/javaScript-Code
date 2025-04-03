@@ -13,6 +13,8 @@ console.log("customerId");
 /*
 Prefer not to use var
 because if issue in block scope functoinal scope
+
 */
 
 console.table([customerId,userEmail,userPassword,userCity])
+console.log("hello")
