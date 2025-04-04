@@ -33,3 +33,34 @@ const myFunction = function(){
      console.log("hello world");
 }
 console.table([typeof heros,myFunction]);
+
+
+//************************************************
+
+//memory is two types 
+//01 #Stack(Primitive dataTypes Stores in memory),
+//02 #Heap(Non primitive dataTypes stores in memory)
+
+let myYoutubename = "Mr_Taushif_Raja"
+
+let anothername = myYoutubename
+anothername = "hitesh_choudhary"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne ={
+email:"mdtaushifraja084@gmail.com",
+upi:"unionjack@ybl"
+} 
+let userTwo = userOne
+    userTwo.email = "taushifraja933@gmail.com",
+    console.log(userOne.email);
+    console.log(userTwo.email);
+    console.log(userTwo.upi);
+    
+    
+    
+    
+  
+
